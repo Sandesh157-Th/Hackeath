@@ -84,7 +84,7 @@
 .section_two {
   width: 100vw;
   display: grid;
-  grid: 370px/300px 300px 300px;
+  grid: 370px/300px 300px 300px 300px;
   grid-column: column;
   gap: 20px;
   padding-top: 20px;
@@ -254,4 +254,15 @@
 
 .container-3{
   width: 500px;
+}
+
+
+.contaLoad{
+  /* margin-left:5% ;
+  background-color: black;
+  height: 200px; */
+  display: flex;
+ color: rgb(46, 240, 46);
+ align-items:center;
+ 
 }

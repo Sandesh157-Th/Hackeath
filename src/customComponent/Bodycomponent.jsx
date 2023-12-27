@@ -4,8 +4,9 @@ import CustomCard from "./Cards";
 // import UseStateDry from "./UseStated";
 import UsedEffect from "./usingEffect1";
 import CounterApp from "./counterApp";
-import BgChanger from "./asyncFun";
-import UsingAllHooks from "./useffectAndAll";
+import BgChanger from "./BackgroundChanger";
+import UsingAllHooks from "./PasswordGenerator";
+import MycomponentS from "./Loader";
 export default class BodyCompo extends Component {
   render() {
     return (
@@ -62,9 +63,13 @@ export default class BodyCompo extends Component {
           <div className=" container-3">
           <UsingAllHooks/> 
           </div>
+          <div className="contaLoad  bg-black h-60 rounded-xl text-green-00">
+          <MycomponentS/>
+          </div>
          
         
           </div>
+         
         
         </div>
       </>
