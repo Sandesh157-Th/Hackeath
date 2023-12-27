@@ -63,7 +63,7 @@ export default class BodyCompo extends Component {
           <div className=" container-3">
           <UsingAllHooks/> 
           </div>
-          <div className="contaLoad  bg-black h-60 rounded-xl text-green-00">
+          <div className="contaLoad  bg-black h-60 rounded-xl text-green-500">
           <MycomponentS/>
           </div>
          
